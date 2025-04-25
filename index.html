@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cem Kun | Japonya Tur Rehberi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>CEM KUN</h1>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#home" class="active">Ana Sayfa</a></li>
+                        <li><a href="#about">Hakkımda</a></li>
+                        <li><a href="#tours">Turlar</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="JAPONYA'YI KEŞFEDİN">JAPONYA'YI KEŞFEDİN</h1>
+                <h2>Cem Kun ile Unutulmaz Bir Deneyim</h2>
+                <p>Kişiselleştirilmiş Tur Rehberliği Hizmetleri</p>
+                <a href="#contact" class="btn btn-primary">Tur Planla</a>
+            </div>
+        </div>
+        <div class="hero-bg-animation">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span>Hakkımda</span>
+                <h2>Cem Kun Kimdir?</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="img-container">
+                        <img src="img/cem-kun-profile.jpg" alt="Cem Kun">
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <h3>Merhaba, Ben Cem!</h3>
+                    <p>Japonya'da yaşayan, Türk bir içerik üreticisi ve profesyonel tur rehberiyim. Japonya'nın kültürünü, geleneklerini ve gizli köşelerini keşfetmeyi seviyorum.</p>
+                    <p>YouTube kanalımda Japonya hakkında içerikler üretirken, aynı zamanda Japonya'ya gelen misafirlerime unutulmaz deneyimler yaşatmak için özel turlar düzenliyorum.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tokyo, Japonya</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <span>Türkçe, İngilizce, Japonca</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>5+ Yıl Deneyim</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tours" class="tours-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span>Hizmetlerim</span>
+                <h2>Özel Tur Paketleri</h2>
+            </div>
+            <div class="tours-grid">
+                <div class="tour-card" data-aos="fade-up">
+                    <div class="tour-image">
+                        <img src="img/tokyo-tour.jpg" alt="Tokyo Turu">
+                        <div class="tour-tag">Popüler</div>
+                    </div>
+                    <div class="tour-content">
+                        <h3>Tokyo Keşif Turu</h3>
+                        <p>Modern ve geleneksel Tokyo'nun en etkileyici noktalarını keşfedin. Shibuya, Shinjuku, Asakusa ve daha fazlası.</p>
+                        <ul class="tour-features">
+                            <li><i class="fas fa-clock"></i> 8 Saat</li>
+                            <li><i class="fas fa-users"></i> 1-6 Kişi</li>
+                            <li><i class="fas fa-utensils"></i> Öğle Yemeği Dahil</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Detaylar</a>
+                    </div>
+                </div>
+
+                <div class="tour-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tour-image">
+                        <img src="img/kyoto-tour.jpg" alt="Kyoto Turu">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Kyoto Tapınaklar Turu</h3>
+                        <p>Japonya'nın eski başkenti Kyoto'da tapınaklar, bahçeler ve geleneksel mahalleler arasında bir yolculuk.</p>
+                        <ul class="tour-features">
+                            <li><i class="fas fa-clock"></i> 9 Saat</li>
+                            <li><i class="fas fa-users"></i> 1-5 Kişi</li>
+                            <li><i class="fas fa-utensils"></i> Çay Seremonisi</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Detaylar</a>
+                    </div>
+                </div>
+
+                <div class="tour-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tour-image">
+                        <img src="img/custom-tour.jpg" alt="Özel Tur">
+                        <div class="tour-tag">Özel</div>
+                    </div>
+                    <div class="tour-content">
+                        <h3>Kişiye Özel Tur</h3>
+                        <p>İlgi alanlarınıza ve isteklerinize göre planlanmış, tamamen size özel bir Japonya deneyimi yaşayın.</p>
+                        <ul class="tour-features">
+                            <li><i class="fas fa-map"></i> İsteğe Bağlı Rota</li>
+                            <li><i class="fas fa-users"></i> 1-4 Kişi</li>
+                            <li><i class="fas fa-clock"></i> Esnek Süre</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Detaylar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span>Anılar</span>
+                <h2>Galeri</h2>
+            </div>
+            <div class="gallery-container" data-aos="fade-up">
+                <div class="gallery-item" onclick="openModal();currentSlide(1)">
+                    <img src="img/gallery1.jpg" alt="Japonya Turu">
+                </div>
+                <div class="gallery-item" onclick="openModal();currentSlide(2)">
+                    <img src="img/gallery2.jpg" alt="Japonya Turu">
+                </div>
+                <div class="gallery-item" onclick="openModal();currentSlide(3)">
+                    <img src="img/gallery3.jpg" alt="Japonya Turu">
+                </div>
+                <div class="gallery-item" onclick="openModal();currentSlide(4)">
+                    <img src="img/gallery4.jpg" alt="Japonya Turu">
+                </div>
+                <div class="gallery-item" onclick="openModal();currentSlide(5)">
+                    <img src="img/gallery5.jpg" alt="Japonya Turu">
+                </div>
+                <div class="gallery-item" onclick="openModal();currentSlide(6)">
+                    <img src="img/gallery6.jpg" alt="Japonya Turu">
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Gallery -->
+        <div id="galleryModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="slide">
+                    <img src="img/gallery1.jpg" alt="Japonya Turu">
+                </div>
+                <div class="slide">
+                    <img src="img/gallery2.jpg" alt="Japonya Turu">
+                </div>
+                <div class="slide">
+                    <img src="img/gallery3.jpg" alt="Japonya Turu">
+                </div>
+                <div class="slide">
+                    <img src="img/gallery4.jpg" alt="Japonya Turu">
+                </div>
+                <div class="slide">
+                    <img src="img/gallery5.jpg" alt="Japonya Turu">
+                </div>
+                <div class="slide">
+                    <img src="img/gallery6.jpg" alt="Japonya Turu">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span>Müşteri Yorumları</span>
+                <h2>Deneyimler</h2>
+            </div>
+            <div class="testimonial-slider" data-aos="fade-up">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Cem ile Tokyo turu yapmak, şehri bir turistten ziyade bir yerel gibi deneyimlememizi sağladı. Rehberliği sayesinde asla kendi başımıza keşfedemeyeceğimiz yerler gördük."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/testimonial1.jpg" alt="Ayşe Y.">
+                        <div>
+                            <h4>Ayşe Y.</h4>
+                            <span>İstanbul</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Japonya'ya ilk defa gelen biri olarak, Cem'in yardımı olmadan kaybolacağım kesindi. Sadece harika yerler göstermekle kalmadı, aynı zamanda kültürü ve gelenekleri anlamamızı sağladı."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/testimonial2.jpg" alt="Mehmet K.">
+                        <div>
+                            <h4>Mehmet K.</h4>
+                            <span>Ankara</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Kyoto turumuz mükemmeldi! Cem'in bilgisi ve enerjisi sayesinde, her anımız dolu dolu geçti. Şehrin gizli noktalarını gösterdi ve harika fotoğraflar çektik."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/testimonial3.jpg" alt="Zeynep T.">
+                        <div>
+                            <h4>Zeynep T.</h4>
+                            <span>İzmir</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" onclick="currentTestimonial(0)"></span>
+                <span class="dot" onclick="currentTestimonial(1)"></span>
+                <span class="dot" onclick="currentTestimonial(2)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span>İletişim</span>
+                <h2>Tur Planlamak İçin</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-posta</h3>
+                            <p>info@cemkun.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p>+81 XX XXXX XXXX</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Konum</h3>
+                            <p>Tokyo, Japonya</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="tourRequestForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Adınız" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-posta Adresiniz" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Telefon Numaranız">
+                        </div>
+                        <div class="form-group">
+                            <select id="tourType" name="tourType" required>
+                                <option value="">Tur Tipi Seçin</option>
+                                <option value="tokyo">Tokyo Keşif Turu</option>
+                                <option value="kyoto">Kyoto Tapınaklar Turu</option>
+                                <option value="custom">Kişiye Özel Tur</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="date" id="tourDate" name="tourDate" placeholder="Tarih" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" id="groupSize" name="groupSize" placeholder="Kişi Sayısı" min="1" max="10" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Ek bilgiler ve istekleriniz" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>CEM KUN</h2>
+                    <p>Japonya Tur Rehberi</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#home">Ana Sayfa</a></li>
+                        <li><a href="#about">Hakkımda</a></li>
+                        <li><a href="#tours">Turlar</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Cem Kun | Tüm Hakları Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 

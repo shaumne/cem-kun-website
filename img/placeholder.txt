@@ -1,0 +1,11 @@
+Bu klasörde aşağıdaki görsellerin bulunması gerekiyor:
+
+1. hero-bg.jpg - Ana sayfa arkaplan görseli (Japonya manzarası, örneğin Fuji Dağı veya Tokyo şehir manzarası)
+2. cem-kun-profile.jpg - Cem Kun'un profil fotoğrafı
+3. tokyo-tour.jpg - Tokyo turu görseli
+4. kyoto-tour.jpg - Kyoto turu görseli
+5. custom-tour.jpg - Özel tur görseli
+6. gallery1.jpg - gallery6.jpg - Galeri görselleri (Japonya'dan çeşitli manzara ve anılar)
+7. testimonial1.jpg - testimonial3.jpg - Müşteri yorumları için görseller
+
+Not: Bu görselleri kullanmadan önce telif hakkı durumlarını kontrol edin ve gerçek web sitesi yayınlandığında bu metni kaldırın. 
